@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class MagicBox<T> {
-    Random random = new Random();
+    protected Random random = new Random();
     protected T[] items;
 
     public MagicBox(int amount) {
